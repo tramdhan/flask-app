@@ -6,9 +6,15 @@
 </head>
 <body>
     <h1>Weather Data API</h1>
-
+    <h2>One Station, One Date:</h2>
     <h3>API Format: http://127.0.0.1:5001/api/v1/station_id/date</h3>
     <h3>Example: http://127.0.0.1:5001/api/v1/10/1988-10-25</h3>
+    <h2>One Station, One Year:</h2>
+    <h3>API Format: http://127.0.0.1:5001/api/v1/yearly/station_id/year</h3>
+    <h3>Example: http://127.0.0.1:5001/api/v1/yearly/10/1988</h3>
+    <h2>One Station, All Dates:</h2>
+    <h3>API Format: http://127.0.0.1:5001/api/v1/station_id</h3>
+    <h3>Example: http://127.0.0.1:5001/api/v1/10</h3>
     <br>
     <p>{{data|safe}}</p>
 </body>
